@@ -1,0 +1,10 @@
+version: '3.2'
+services:
+  mlflow-app:
+    image: recommender_app  # create server
+    ports:
+      - 5000:5000
+    volumes:
+      - ./app/mlruns:/app/mlruns:rw
+      - ./app/info:/app/info:rw
+      - ./app/sqlite:/app/sqlite:rw
