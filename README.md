@@ -66,8 +66,8 @@ demonstrative purpose.
 
 ## Examples of training results
 
-**Recall** and **NDGC** metrics are implemented. Recall measures the ability of a recommendation system to 
-retrieve all relevant items while NDGC measures the quality of recommendations given the relevance 
+**Recall** and **NDCG** metrics are implemented. Recall measures the ability of a recommendation system to 
+retrieve all relevant items while NDCG measures the quality of recommendations given the relevance 
 of items. 
 
 #### Recall@50
