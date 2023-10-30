@@ -1,4 +1,4 @@
-# Recommender System with Variational Autoencoder (VAE) using TensorFlow 2 and MLflow
+# Recommendation System with Variational Autoencoder (VAE) using TensorFlow 2 and MLflow
 
 This project implements a Recommender System using a Variational Autoencoder (VAE) with 
 TensorFlow 2. The VAE-based Recommender System is designed to provide personalized 
