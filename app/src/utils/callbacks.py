@@ -2,7 +2,6 @@ import mlflow
 import tensorflow as tf
 
 
-# Define a custom Keras callback for logging metrics and parameters
 class MLflowLoggingCallback(tf.keras.callbacks.Callback):
     def __init__(self, batch_size, epochs, fine_tune, model_name, learning_rate, log_interval):
         super().__init__()
